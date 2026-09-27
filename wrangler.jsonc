@@ -160,16 +160,6 @@
   // ▶ 方案 B：D1（关系型，可与 Go 后端共享库；DB_FORMAT 建议改为 "sql"）
   //   控制台：Workers & Pages → D1 → 创建数据库 → 绑定到 Worker，变量名填 DB
   //   省略 database_id 时，wrangler >= 4.45.0 会自动创建同名库并回写
-  {
-  // ...
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_id": "267fea36-fc58-4f36-8e38-417003ac83e1"
-    }
-  ],
-  // ...  
-}
   // "d1_databases": [
   //   { "binding": "DB", "database_name": "openlist", "database_id": "" }
   // ],

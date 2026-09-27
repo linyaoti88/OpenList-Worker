@@ -167,7 +167,7 @@
 "d1_databases": [
   {
     "binding": "DB",
-    // "database_id": "你的数据库ID",  <-- 删除这一行
+    "database_id": "267fea36-fc58-4f36-8e38-417003ac83e1",
     "database_name": "openlist-worker"
   }
 ]
